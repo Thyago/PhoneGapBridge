@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src *;style-src * 'self' 'unsafe-inline' 'unsafe-eval';script-src * 'self' 'unsafe-inline' 'unsafe-eval';">
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="msapplication-tap-highlight" content="no"/>
+  <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height"/>
+
+  <script type="text/javascript" src="cordova.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/iframe.css"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css"/>
+
+  <title>PhoneGap Bridge - Demo</title>
+</head>
+<body>
+
+<div id="splash" class="app">
+  <h1>PhoneGap Bridge - Demo</h1>
+  <div id="deviceready" class="blink">
+    <p class="event listening">Loading...</p>
+    <p class="event received">Loading...</p>
+  </div>
+</div>
+
+<iframe src="" id="iframe" style="display: none;"></iframe>
+
+
+<script type="text/javascript" src="js/PushNotification.js"></script>
+
+<script type="text/javascript" src="js/webbridge.js"></script>
+<script type="text/javascript" src="js/webbridge.camera.js"></script>
+<script type="text/javascript" src="js/webbridge.notification.js"></script>
+<script type="text/javascript" src="js/webbridge.pushNotification.js"></script>
+
+<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+</html>
