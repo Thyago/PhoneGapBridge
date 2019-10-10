@@ -1,6 +1,6 @@
 WebBridge.init('iframe', {
   default_url: 'http://www.voluptor.com/protomono',
-  push_sender_id: 780347796211
+  push_sender_id: "<YOUR SENDER ID>"
 });
 
 document.addEventListener('deviceready', function() {
