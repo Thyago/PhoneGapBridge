@@ -39,7 +39,7 @@
   <!--gap:plugin name="org.apache.cordova.splashscreen"/-->
   <plugin name="com.sharinglabs.cordova.plugin.cache" source="pgb" />
   <plugin name="phonegap-plugin-push" source="npm">
-    <param name="SENDER_ID" value="780347796211" />
+    <param name="SENDER_ID" value="<YOUR SENDER ID>" />
   </plugin>
 
   <!-- App Icons -->
